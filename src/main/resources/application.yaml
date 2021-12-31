@@ -2,9 +2,9 @@ spring:
   application:
     name: odin
   datasource:
-    url: jdbc:mysql://localhost:3307/user
-    username: test
-    password: password
+    url: ${ODIN_MYSQL_URL}
+    username: ${ODIN_MYSQL_USER}
+    password: ${ODIN_MYSQL_PASSWORD}
   jpa:
     properties:
       hibernate:
