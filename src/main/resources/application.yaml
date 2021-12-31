@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: odin
+  datasource:
+    url: jdbc:mysql://localhost:3307/user
+    username: test
+    password: password
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+
+server:
+  port: 9000
